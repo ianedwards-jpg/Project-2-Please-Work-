@@ -13,7 +13,7 @@ function searchLocation(cityInput) {
       console.log(response);
       // Creating a div to hold the supermarket results
       var supermarketsDiv = $("<div class='supermarkets'>");
-      var marketcardDiv = $("<div class= 'card'>");
+      var marketcardDiv = $("<div class='card'>");
 
       // Storing the supermarket name
       var name = response.results[i].name;
